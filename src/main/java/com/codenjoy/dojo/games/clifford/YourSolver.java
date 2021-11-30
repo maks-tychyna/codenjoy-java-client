@@ -25,7 +25,6 @@ package com.codenjoy.dojo.games.clifford;
 
 import com.codenjoy.dojo.client.Solver;
 import com.codenjoy.dojo.services.Dice;
-import com.codenjoy.dojo.services.Direction;
 
 /**
  * Author: your name
@@ -46,11 +45,7 @@ public class YourSolver implements Solver<Board> {
 
     @Override
     public String get(Board board) {
-        this.board = board;
-        if (board.isGameOver()) return "";
-
-        // TODO your code here
-
-        return Direction.RIGHT.toString();
+        AISolver aiSolver = new AISolver(dice);
+        return aiSolver.get(board);
     }
 }
