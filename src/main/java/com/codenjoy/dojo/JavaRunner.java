@@ -44,6 +44,9 @@ public class JavaRunner {
     // or put it as command line parameter.
     private String url =
             "https://dojorena.io/codenjoy-contest/board/player/dojorena981?code=6913910346978543810";
+//    private String url =
+//        "http://127.0.0.1:8080/codenjoy-contest/board/player/onz3db1kk8x47g448w88?code=8319177470455860273";
+
 
     public void run(String[] args) {
         System.out.println("+-----------------+");

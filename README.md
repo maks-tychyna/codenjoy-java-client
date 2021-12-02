@@ -34,3 +34,22 @@ This is your faithful friend, who is always ready to answer the question: "Is ev
 The `com.codenjoy.dojo.client.<gamename>.BoardTest` class contains a set of tests that check board tools.
 Implementation of new methods should be accompanied by writing new tests and checking the results of processing existing ones. \
 Use `com.codenjoy.dojo.games.<gamename>.YourSolverTest.should_when()` to check the bot's behavior for a specific game scenario.
+
+# Local server
+
+https://github.com/codenjoyme/codenjoy
+склонировать этот репозиторий
+
+В файле CodingDojo/build-server.bat
+поставить:
+GAMES_TO_RUN=clifford
+сохранить и запустить его. java11. 
+Оно соберет сервер с клиффордом. 
+
+после этого файл
+CodingDojo/start-server.bat
+
+запустит тебе сервер локально
+
+Settings:
+https://dojorena.io/codenjoy-contest/rest/settings/mollymage/r355/_settings_
